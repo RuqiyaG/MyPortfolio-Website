@@ -1,1 +1,11 @@
+body   {
+text-align: center;
+font-family: sans-serif;
+color: black;
+min-height: 100%;
+}
 
+#grad {
+    background: linear-gradient(to right, lightgreen, lightskyblue);
+    min-height: 100vh;
+}
