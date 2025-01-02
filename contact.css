@@ -70,4 +70,78 @@ p {
 
 p{
         font-size: 23px;
-}     
+}   
+
+
+input, select, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        font-size: 14px;
+}
+      
+ textarea {
+        resize: vertical;
+}
+
+label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: white;
+}
+
+legend {
+        font-weight: bold;
+        color: white;
+        padding: 0 10px;
+} 
+  
+fieldset {
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 15px;
+        margin-bottom: 20px;
+        
+}
+
+.form-container {
+        background-color: darkturquoise;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        width: 1250px;
+        max-width: 1300px;
+}
+
+button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: lightseagreen;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+
+}
+
+button:hover {
+        background-color: mediumseagreen;
+}
+
+#responseMessage {
+        margin-top: 20px;
+        font-size: 16px;
+}
+    
+.success {
+        color: green;
+}
+    
+.error {
+        color: red;
+}
