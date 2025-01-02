@@ -4,13 +4,13 @@ body   {
     color: white;
     min-height: 100%;
     margin: 0;
-    }
+}
     
 #grad {
         background: linear-gradient(to right, lightgreen, lightskyblue);
         min-height: 100vh;
         margin: 0;
-    }
+}
     
 .menu-toggle {
         background-color: mediumturquoise;
@@ -23,7 +23,7 @@ body   {
         font-size: 24px;
         border-radius: 5px;
         z-index: 1000;
-      }
+}
       
 .menu {
         position: fixed;
@@ -33,34 +33,35 @@ body   {
         height: 100%;
         background-color: mediumturquoise;
         transition: left 0.3s ease;
-      }
+}
     
 .menu.active {
         left: 0;
-    }
+}
     
     
 .menu ul {
         list-style-type: none;
         padding: 0;
         margin-top: 60px;
-      }
+}
       
 .menu li {
         padding: 15px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-      }
+}
       
 .menu li a {
         text-decoration: none;
         color: white;
         font-size: 18px;
         display: block;
-      }
+}
       
 .menu li:hover {
         background-color: rgba(255, 255, 255, 0.1);
-      }
+}
+
 button {
         width: 18%;
         padding: 12px;
@@ -70,11 +71,11 @@ button {
         border-radius: 75px;
         font-size: 16px;
         cursor: pointer;
-    }
+}
     
 button:hover {
         background-color: mediumturquoise;  
-    }  
+}  
 
 h3{
         border-style: solid;
